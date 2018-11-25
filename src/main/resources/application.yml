@@ -1,0 +1,9 @@
+server:
+  port: 8081
+  
+spring:
+  batch:
+    job:
+      enabled: false
+  
+input: /spring-batch/src/main/resources/users.csv
